@@ -1,0 +1,7 @@
+name: omero
+channels:
+  - defaults
+dependencies:
+  - zeroc-ice36-python
+  - omero-py
+  - python=3.6
