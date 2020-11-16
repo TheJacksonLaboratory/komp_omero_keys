@@ -33,8 +33,8 @@ def create_connection(server, port, sudo, user, group):
     return conn
 
 def create_annotations():
-    ann = [{"fundus":"", "annotation_status":""},
-           {"cornea":"", "iris":"", "ciliary_body":"", "lens":"", "retina":"", "RPE":"", "choroid":"", "sclera":"", "optic_nerve_head":"", "annotation_status":""}]
+    ann = [{"fundus":"", "comments":"","annotation_status":""},
+           {"cornea":"", "iris":"", "ciliary_body":"", "lens":"", "retina":"", "RPE":"", "choroid":"", "sclera":"", "optic_nerve_head":"", "comments":"", "annotation_status":""}]
     return ann
 
 def find_images(conn, type, target):
